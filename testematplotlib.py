@@ -25,5 +25,5 @@ for country in gas:
     if country in list_country:
         plt.plot(gas['Year'],gas[country])
 
-plt.savefig('country.png')
+plt.savefig('country.png')    
 plt.show()
